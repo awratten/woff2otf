@@ -5,7 +5,7 @@ This is a small utility to convert WOFF files to the OTF font format. It uses Py
 ## Usage
 To run the script, simply invoke it from the command line:
 ```
-./woff2otf.py font.woff font.otf
+./woff2otf.py font.woff
 ```
 
-The first parameter is the source file (the WOFF) font, and the second parameter is the output file (in OTF format).
+The first parameter is the source file (the WOFF) font. The code will automatically use the same name as the woff file. (please do not use excess "." in your file names.
